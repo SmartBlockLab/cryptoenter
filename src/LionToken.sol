@@ -208,7 +208,7 @@ contract Lion {
             issueStage.count = 0;
         }
 
-        require(issueStage.currentN < 10, "All issues completed");
+        require(issueStage.currentN < 9, "All issues completed");
 
         uint256 amount = 0;
         uint countBefore = issueStage.count;
